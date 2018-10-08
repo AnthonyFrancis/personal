@@ -34,7 +34,7 @@ p, ul {
     color: black;
 }
 
-.page a:link, a:visited {
+.page a {
     color: #cf0001;
     text-decoration: none;
     border-bottom: 1px solid #cf0001;
@@ -75,6 +75,7 @@ ul, menu, dir {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+
 }
 
 .container {
@@ -87,4 +88,14 @@ footer ul li a {
     color: #999;
     border: none;
     box-shadow: none;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    display: block;
+    padding: 0 15px;
+    color: black;
+    border: none;
+    box-shadow: none;
+    text-decoration: none;
 }

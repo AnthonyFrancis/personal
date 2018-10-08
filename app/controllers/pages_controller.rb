@@ -1,14 +1,22 @@
 class PagesController < ApplicationController
-  def home
-  	
+  def home	
   end
 
-  def about
+  def blog
   end
 
-  def companies
+  def books
   end
 
-  def premium
+  def newsletter
+  end
+
+  def product
+  end
+
+  def projects
+  end
+
+  def aboutme
   end
 end
