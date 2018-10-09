@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get "blog" => "pages#blog"
   get "books" => "pages#books"
-  get "join" => "pages#newsletter"
+  get "news" => "pages#newsletter"
   get "products" => "pages#products"
   get "projects" => "pages#projects"
   get "aboutme" => "pages#aboutme"
