@@ -99,3 +99,11 @@ footer ul li a:hover {
     box-shadow: none;
     text-decoration: none;
 }
+
+hr {
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 25px 0;
+    height: 0;
+}
