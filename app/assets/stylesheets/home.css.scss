@@ -119,3 +119,33 @@ hr {
     text-decoration: none;
     border-bottom: 1px solid #cf0001;
 }
+
+.product_container {
+    padding: 12px;
+    height: 100%;
+}
+
+.product_image {
+    height: 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 156px;
+    -webkit-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+}
+
+.book_container {
+    padding: 12px;
+    height: 100%;
+}
+
+.book_image {
+    height: 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 156px;
+    -webkit-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+}
